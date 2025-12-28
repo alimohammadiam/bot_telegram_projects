@@ -1,1 +1,12 @@
-.env
+# ====================================
+# Environment Variables & Secrets
+# ====================================
+.env                    # فایل اصلی
+.env.local              # تنظیمات local
+.env.development        # محیط توسعه
+.env.production         # محیط production
+.env.test               # محیط تست
+.env.*                  # همه فایل‌های .env
+.env.example            # الگو (می‌ماند)
+.env.sample             # نمونه (می‌ماند)
+.env.template           # قالب (می‌ماند)
